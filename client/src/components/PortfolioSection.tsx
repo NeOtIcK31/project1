@@ -11,35 +11,35 @@ export default function PortfolioSection() {
   const portfolioImages = [
     {
       id: 1,
-      src: '/images/portfolio-1.jpg',
+      src: '/images/1.jpg',
       alt: 'Альпийское озеро с отражением гор',
       title: 'Альпийское озеро',
       category: 'Горы',
     },
     {
       id: 2,
-      src: '/images/portfolio-2.jpg',
+      src: '/images/2.jpg',
       alt: 'Закат над холмами',
       title: 'Закат над холмами',
       category: 'Закаты',
     },
     {
       id: 3,
-      src: '/images/portfolio-3.jpg',
+      src: '/images/3.jpg',
       alt: 'Туманный лес',
       title: 'Туманный лес',
       category: 'Лес',
     },
     {
       id: 4,
-      src: '/images/portfolio-4.jpg',
+      src: '/images/4.jpg',
       alt: 'Скалистое побережье',
       title: 'Скалистое побережье',
       category: 'Море',
     },
     {
       id: 5,
-      src: '/images/placeholder-portfolio-5.jpg',
+      src: '/images/5.jpg',
       alt: 'Ваша фотография 5',
       title: 'Добавьте свою фотографию',
       category: 'Категория',
@@ -90,13 +90,6 @@ export default function PortfolioSection() {
               </div>
             </div>
           ))}
-        </div>
-
-        {/* Info Text */}
-        <div className="mt-12 p-6 bg-white rounded-lg border border-gray-200 text-center fade-in-up">
-          <p className="text-gray-600">
-            💡 Совет: Вы можете заменить изображения-заглушки на свои фотографии, обновив пути в файле <code className="bg-gray-100 px-2 py-1 rounded">PortfolioSection.tsx</code>
-          </p>
         </div>
       </div>
 

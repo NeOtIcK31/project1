@@ -90,9 +90,6 @@ export default function Footer() {
           <p className="text-gray-400 text-sm">
             © {currentYear} Максим Самсонов. Все права защищены.
           </p>
-          <p className="text-gray-400 text-sm">
-            Создано с ❤️ для демонстрации работ
-          </p>
         </div>
       </div>
     </footer>
